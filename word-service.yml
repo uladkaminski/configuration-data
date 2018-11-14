@@ -2,23 +2,30 @@
 spring:
   profiles: subject
 words: I,You,He,She,It
+serer:
+  port: 8011
 
 ---
 spring:
   profiles: verb
 words: ran,knew,had,saw,bought
-
+serer:
+  port: 8012
 ---
 spring:
   profiles: article
 words: a,the
-
+serer:
+  port: 8013
 ---
 spring:
   profiles: adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
-
+serer:
+  port: 8014
 ---
 spring:
   profiles: noun
 words: boat,book,vote,seat,backpack,partition,groundhog
+serer:
+  port: 8015
