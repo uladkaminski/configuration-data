@@ -39,3 +39,11 @@ spring:
 words: boat,book,vote,seat,backpack,partition,groundhog
 server:
   port: 8015
+---
+spring:
+  profiles: default
+  application:
+    name: default-service
+words: default
+server:
+  port: 8016
