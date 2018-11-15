@@ -47,3 +47,11 @@ spring:
 words: default
 server:
   port: 8026
+---
+spring:
+  profiles: cold-noun
+  application:
+    name: noun-service
+words: icicle,refrigerator,blizzard,snowball
+server:
+  port: 8027
