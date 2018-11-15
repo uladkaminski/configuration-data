@@ -5,7 +5,7 @@ spring:
     name: subject-service
 words: I,You,He,She,It
 server:
-  port: 8011
+  port: 8021
 
 ---
 spring:
@@ -14,7 +14,7 @@ spring:
     name: verb-service
 words: ran,knew,had,saw,bought
 server:
-  port: 8012
+  port: 8022
 ---
 spring:
   profiles: article
@@ -22,7 +22,7 @@ spring:
     name: article-service
 words: a,the
 server:
-  port: 8013
+  port: 8023
 ---
 spring:
   profiles: adjective
@@ -30,7 +30,7 @@ spring:
     name: adjective-service
 words: reasonable,leaky,suspicious,ordinary,unlikely
 server:
-  port: 8014
+  port: 8024
 ---
 spring:
   profiles: noun
@@ -38,7 +38,7 @@ spring:
     name: noun-service
 words: boat,book,vote,seat,backpack,partition,groundhog
 server:
-  port: 8015
+  port: 8025
 ---
 spring:
   profiles: default
@@ -46,4 +46,4 @@ spring:
     name: default-service
 words: default
 server:
-  port: 8016
+  port: 8026
