@@ -44,7 +44,7 @@ spring:
   profiles: default
   application:
     name: default-service
-words: default
+words: default,word,check
 server:
   port: 8026
 ---
